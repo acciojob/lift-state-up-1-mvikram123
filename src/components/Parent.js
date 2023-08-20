@@ -12,9 +12,6 @@ const Parent=()=>{
         setShowModal(true)
     }
 
-
-
-
     return(
 
 

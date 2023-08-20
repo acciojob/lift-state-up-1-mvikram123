@@ -1,10 +1,11 @@
 import React from "react";
+//import Parent from "./Parent";
 
 
 
 
 
-const Child=({props})=>{
+const Child=(props)=>{
    
    console.log(props)
 
@@ -13,12 +14,12 @@ const Child=({props})=>{
     return(
 
         <div className="child">
-            <h1>Child Component</h1>
+            <h2>Child Component</h2>
             <button onClick={props.onClickHandle}>Show Modal</button>
             {props.showModal && (
-                <div>
-            <h3>Model Content</h3>
-            <p>this is the modal content</p>
+            <div>
+               <h3>Model Content</h3>
+               <p>this is the modal content</p>
             </div>
 
             )}
